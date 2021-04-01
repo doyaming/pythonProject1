@@ -1,11 +1,4 @@
-import pandas as pd
-rt matplotlib.pyplot as plt
-
-df = pd.read_csv('/home/t12652/data.csv')
-
-
-df["Duration"].plot(kind = 'hist')
-
-
-plt.show()
+it pandas as pd
+grade= pd.Series([10, 20, 30], index=['keviner', 'jan', 'mark'])
+print(grade)
 
