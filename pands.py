@@ -1,9 +1,11 @@
 import pandas as pd
+rt matplotlib.pyplot as plt
 
-df = pd.read_csv('/home/t12652/dirtydata.csv')
-
-
-df["Calories"].fillna(140, inplace = True)
+df = pd.read_csv('/home/t12652/data.csv')
 
 
-print(df.to_string())
+df["Duration"].plot(kind = 'hist')
+
+
+plt.show()
+
